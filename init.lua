@@ -1,3 +1,3 @@
+require("user.keymaps")
 require("config.lazy")
-
-vim.g.mapleader = " "
+require("user.options")
