@@ -18,23 +18,23 @@ vim.opt.list = true
 vim.opt.listchars = { tab = '▸ ', trail = '·', nbsp = '␣' }
 vim.opt.fillchars:append({ eob = ' ' }) 
 vim.opt.mouse = 'a' 
-vim.opt.mousemoveevent = true 
+vim.opt.mousemoveevent = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.scrolloff = 8
 vim.opt.sidescrolloff = 8
-vim.opt.clipboard = 'unnamedplus' 
-vim.opt.confirm = true 
-vim.opt.undofile = true 
-vim.opt.backup = true 
-vim.opt.backupdir:remove('.') 
-vim.opt.shortmess:append({ I = true }) 
-vim.opt.wildmode = 'longest:full,full' 
+vim.opt.clipboard = 'unnamedplus'
+vim.opt.confirm = true
+vim.opt.undofile = true
+vim.opt.backup = true
+vim.opt.backupdir:remove('.')
+vim.opt.shortmess:append({ I = true })
+vim.opt.wildmode = 'longest:full,full'
 vim.opt.completeopt = 'menuone,longest,preview'
 vim.opt.signcolumn = 'yes:2'
 vim.opt.showmode = false
-vim.opt.updatetime = 100 
-vim.opt.redrawtime = 10000 
+vim.opt.updatetime = 100
+vim.opt.redrawtime = 10000
 vim.opt.exrc = true
 vim.opt.secure = true
 vim.opt.titlestring = '%f // nvim'
