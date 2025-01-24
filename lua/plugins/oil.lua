@@ -18,6 +18,9 @@ return {
                 ["<leader>t"] = { "actions.select", opts = { tab = true }, desc = "Open the entry in a second tab" },
             }
         },
+        keys = {
+            {"-", ":Oil<CR>", desc = "Toggle oil"}
+        },
         dependencies = {
             "echasnovski/mini.icons",
         },
